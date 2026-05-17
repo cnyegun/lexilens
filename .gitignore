@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+venv/
+.env
+.lexilens/
+.DS_Store
+target/

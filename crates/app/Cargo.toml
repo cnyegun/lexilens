@@ -1,0 +1,17 @@
+[package]
+name = "app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+camera = { path = "../camera" }
+config = { path = "../config" }
+eframe = { version = "0.33", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
+egui = "0.33"
+ocr = { path = "../ocr" }
+patch = { path = "../patch" }
+selection = { path = "../selection" }
+text = { path = "../text" }
+tokio = { version = "1", features = ["rt-multi-thread"] }
+tracking = { path = "../tracking" }

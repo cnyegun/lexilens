@@ -1,0 +1,10 @@
+[package]
+name = "camera"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["jpeg"] }
+thiserror = "2"
+v4l = "0.14"

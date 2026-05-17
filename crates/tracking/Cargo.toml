@@ -1,0 +1,8 @@
+[package]
+name = "tracking"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+selection = { path = "../selection" }

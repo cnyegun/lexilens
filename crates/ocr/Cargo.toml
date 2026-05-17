@@ -1,0 +1,10 @@
+[package]
+name = "ocr"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+async-trait = "0.1"
+thiserror = "2"
+tokio = { version = "1", features = ["time"] }
